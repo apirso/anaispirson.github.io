@@ -89,7 +89,7 @@
   <!-- CMP v2 script -->
   <!-- <script
     src="https://gdpr-wrapper.acc.privacymanager.io/gdpr/579d3d3d-cc3f-4c1b-a76d-874613fe2e10/gdpr-liveramp.js"></script> -->
-    <link
+    <!-- <link
     as="script"
     href="https://gdpr.privacymanager.io/latest/gdpr.bundle.js"
     rel="preload"
@@ -98,7 +98,10 @@
     async="async"
     defer="defer"
     src="https://gdpr-wrapper.privacymanager.io/gdpr/0a4b1331-7638-41e5-82db-e2f30896a0a5/gdpr-liveramp.js"
-  ></script>
+  ></script> -->
+
+  <link rel="preload" href="https://launchpad.privacymanager.io/latest/launchpad.bundle.js" as="script" />
+        <script async defer src="https://launchpad-wrapper.privacymanager.io/18d79bf0-dde3-4295-8a76-ac34787ba1bb/launchpad-liveramp.js"></script>
   <!-- Lazyload (must be placed in head in order to work) -->
   <script src="js/lazysizes.min.js"></script>
 
@@ -247,7 +250,7 @@
           userIds: [{
             name: "identityLink",
             params: {
-              pid: '14'             // Set your real identityLink placement ID here
+              pid: '13555'             // Set your real identityLink placement ID here
             },
             storage: {
               type: "cookie",
