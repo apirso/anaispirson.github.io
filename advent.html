@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Advent Cal 23</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+<script type="text/javascript" src="snowflake.min.js"></script>
+</head>
+<body>
+    <div class='container'>
+        <h1 id="title">Seasonal Movie Advent Calendar </h1>
+        <label for="advType">Choose your adeventure!</label>
+        
+<select name="advType" id="advType">
+    <option value="classic">Classic</option>
+  <option selected value="horror">Scary</option>
+
+</select>
+<div id="popup-container">
+    <div id="popup">
+        <div class="close-popup" id="closeBtn"><a href="#">X</a></div>
+        <div class="card" style="
+        display: flex;
+    ">
+      <div class="card-left-side">
+            <img src="https://m.media-amazon.com/images/M/MV5BNmE5NWQyYjktMmMzYi00YjY2LWFmNTUtMWQyMzcwNWM2NWYzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_QL75_UX380_CR0,0,380,562_.jpg" alt="" class="card-img">
+        </div>
+         <div class="card-right-side">
+           <h2 class="card-title">TITLE OF THIS FILM</h2>
+        <p class="card-text"> Eat better and exersize better and subscribe for the fitness tips inbox</p>
+        <a href="https://www.imdb.com/" target="_blank" class="popup-btn">Watch Now!</a>
+            
+    </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <div id="app-calendar">
+    </div>
+  
+</div>
+
+<script src="films.js"></script>
+    <script src="app.js"></script>
+   
+</body>
+</html>
