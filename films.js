@@ -231,7 +231,7 @@ let horror = [{
     day:2,
     movie:'Grinch: The Mean One (2022)',
     image:'https://m.media-amazon.com/images/M/MV5BMTUxODA1NDMtNWM0YS00YzQ2LTlmMzgtNGExMTQ4NTE3ZjU2XkEyXkFqcGdeQXVyOTQzOTE5NTY@._V1_FMjpg_UY7200_.jpg',
-    description:'Cindys parents are murdered by a bloodthirsty green figure in a Santa suit.',
+    description:"Cindy/'s parents are murdered by a bloodthirsty green figure in a Santa suit.",
     link: 'https://www.imdb.com/title/tt20853816/',
     rating: 3.8,
     genre:'Comedy/Horror'
@@ -240,7 +240,7 @@ let horror = [{
     day:3,
     movie:'Jack Frost (1997)',
     image:'https://m.media-amazon.com/images/M/MV5BYjE4ZDAxNmItODBjMy00YjVlLTkwMDMtZjYxZWY0YmI4ZDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UY562_CR14,0,380,562_.jpg',
-    description:'After an accident leaves murderer Jack Frost dead. he returns as a murderous snowman for revenge.',
+    description:'After an accident leaves murderer Jack Frost dead, he returns as a murderous snowman for revenge.',
     link: 'https://m.media-amazon.com/images/M/MV5BYjE4ZDAxNmItODBjMy00YjVlLTkwMDMtZjYxZWY0YmI4ZDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UY562_CR14,0,380,562_.jpg',
     rating: 4.7,
     genre:'Comedy/Fantasy/Horror'

@@ -23,7 +23,8 @@ background-image: url('test.jpg');
 
 .card-text{
     font-size: 2.5vmin;
-    margin-bottom: 1%;
+    margin-bottom: -0.1vmin;
+        margin-top: 1vmin;
 }
 
 #advType{
@@ -120,6 +121,7 @@ object-fit: fill;
    
     #popup-container{
         height: 40vw;
+        margin-top: 1%;
         width: 90%;
         flex-wrap: wrap;
         justify-content: center;
@@ -171,13 +173,16 @@ object-fit: fill;
 
 
     .popup-btn{
-        display: inline-block;
+        display: block;
         text-decoration: none;
         border: 2px solid rebeccapurple;
-        padding: 5px 15px;
+        padding:2%;
+        /* padding: 5px 15px; */
         border-radius: 20px;
-    font-size: 2.4vmin;
+    font-size: 2vmin;
     color: rebeccapurple;
+    margin: 2% auto;
+    width: 45%;
     }
     .popup-btn:hover{
         background-color: rebeccapurple;
